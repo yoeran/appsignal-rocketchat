@@ -80,7 +80,7 @@ class Script {
                             },
                             {
                                 title: "Duration",
-                                value: msg.duration,
+                                value: `${(msg.duration / 1000).toFixed(3)}s`,
                             },
                             {
                                 title: "Status",
